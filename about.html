@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-shop About Page</title>
-       <!-- * Global Css Link -->
+    <!-- * Global Css Link -->
     <link rel="stylesheet" href="./styles/global.css" />
-     
-      <!-- * Font Awesome CDN -->
+<!-- About css -->
+ <link rel="stylesheet" href="./styles/about.css">
+    <!-- * Font Awesome CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -15,46 +16,64 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
-     <!-- Header -->
-     <header >
-        <!-- Logo -->
-         <a href="#" class="logo">
-            <h1>E-shop</h1>
-         </a>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <h1>E-shop</h1>
+      </a>
 
-         <!-- Navigation -->
-          <nav>
-           <a href="/">Home</a>
-           <a href="/products.html">Products</a>
-           <a href="/about.html">About</a>
-           <a href="/contact.html">Contact</a>
+      <!-- Navigation -->
+      <nav>
+        <a href="/">Home</a>
+        <a href="/products.html">Products</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
 
-          </nav>
+      <!-- Buttons -->
+      <div class="buttons">
+        <!-- Menu Button -->
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <!-- Close Button -->
+        <button id="close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <!-- Search Button -->
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <!-- Cart Button -->
+        <button id="cart-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>3</span>
+        </button>
+      </div>
+    </header>
 
-          <!-- Buttons -->
-           <div class="buttons">
-            <!-- Menu Button -->
-             <button id="menu-btn">
-                 <i class="fa-solid fa-bars"></i>
-             </button>
-             <!-- Close Button -->
-              <button id="close-btn">
-                <i class="fa-solid fa-xmark"></i>
-              </button>
-              <!-- Search Button -->
-               <button >
-               <i class="fa-solid fa-magnifying-glass"></i>
-               </button>
-               <!-- Cart Button -->
-                <button id="cart-btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span>3</span>
-                </button>
-           </div>
-     </header>
-      <!-- Js Connection -->
-       <script src="./main.js"></script>
-</body>
+    <!-- Main -->
+    <main class="about-page">
+      <!-- Hero -->
+      <section class="hero">
+        <!-- Content -->
+        <div class="hero-content">
+          <!-- Title -->
+          <h1>About Us</h1>
+          <!-- Description -->
+          <p>Providing the best quality service since 2010</p>
+        </div>
+      </section>
+      <!-- Info -->
+
+      <!-- Team -->
+
+      <!-- Reviews -->
+    </main>
+    <!-- Js Connection -->
+    <script src="./main.js"></script>
+  </body>
 </html>

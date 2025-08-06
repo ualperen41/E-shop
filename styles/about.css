@@ -1,0 +1,19 @@
+/* * Root */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --text-color: #333;
+  --light-bg: #f8f9fa;
+  --white: #ffffff;
+  --transition: all 0.3s ease;
+}
+
+/* Hero */
+ main.about-page .hero {
+background:url("../images/hero-banner.jpg") center/cover ;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
