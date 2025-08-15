@@ -14,28 +14,9 @@
     margin-bottom: 3rem;
     font-size: 2.5rem;
 }
-/* Hero */
-.hero {
-background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/hero-banner.jpg") center/cover;height: 400px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-color: var(--white);
-}
 
-.hero .hero-content {
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-
-.hero .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-
-}
-
-.hero .hero-content p {
-    font-size: 1.2rem;
+.about-hero {
+   height: 400px;
 }
 
 
